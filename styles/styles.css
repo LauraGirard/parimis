@@ -1,0 +1,254 @@
+/*GLOBAL*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+
+body{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	background-color: #f1f2f6;
+}
+
+#wrapper{
+	height: 200px;
+	width: 768px;
+}
+
+/*HEADER*/
+.first-div{
+	height: 40px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #595959;
+	border-radius: 5px;
+}
+
+.language-selector{
+	width: 20%;
+	margin-left: 15px;
+	font-size: 0.8em;
+}
+
+.search-bar{
+	margin-right: 15px;
+}
+
+.second-div{
+	display: flex;
+	flex-direction: row;
+	height: 150px;	
+}
+
+.second-div img{
+	height: 100%;
+}
+
+nav{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	border: 1px gold solid;
+	margin: auto;
+	/*display: block;*/
+	height: 70px;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+	text-shadow: 1px 1px 2px darkgrey;
+	cursor: pointer;
+	color: #E1BC40;
+}
+
+nav a{
+	display: block;
+	margin: auto;
+	height: 100%;
+}
+
+.font{
+	font-family: 'Bad Script', cursive;
+	font-size: 1.3em;
+}
+
+.slider{
+	width: 100%;
+	border-radius: 5px;
+}
+
+/*PRESENTATION HOTEL*/
+
+.hotel-presentation{
+	width: 100%;
+}
+
+.intro{
+	text-align: center;
+	width: 100%;	
+}
+
+hr{
+	width: 30%;
+}
+
+.lisere-intro{
+	margin-bottom: 35px;
+}
+
+h1,p{
+	font-family: 'Quicksand', sans-serif;	
+}
+
+h1{
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
+/*PRESENTATION CHAMBRES*/
+
+.presentation-chambres{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 35px;
+}
+
+.para-chambres{
+	width: 40%;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	color: #E1BC40;
+	text-shadow: 1px 1px 2px darkgrey;
+}
+
+.chambre-photo{
+	width: 50%;
+}
+
+.chambre-photo img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+.chambres-reservation{
+	font-family: 'Bad Script', cursive;
+}
+
+/*PRESENTATION RESTAURANT*/
+
+.presentation-restaurant{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 35px;
+}
+
+.para-restaurant{
+	width: 40%;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	color: #E1BC40;
+	text-shadow: 1px 1px 2px darkgrey;
+}
+
+.restaurant-photo{
+	width: 50%;
+}
+
+.restaurant-photo img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+.restaurant-reservation{
+	font-family: 'Bad Script', cursive;
+}
+
+/*PRESENTATION SPA*/
+
+.presentation-spa{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 35px;
+}
+
+.para-spa{
+	width: 40%;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	color: #E1BC40;
+	text-shadow: 1px 1px 2px darkgrey;
+
+}
+
+.spa-photo{
+	width: 50%;
+}
+
+.spa-photo img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+.spa-reservation{
+	font-family: 'Bad Script', cursive;
+}
+
+/*GOOGLE MAP*/
+
+.map{
+	text-align: center;
+}
+
+
+/*FOOTER*/
+
+.footer{
+	height: 90px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #595959;
+	border-radius: 5px;
+}
+
