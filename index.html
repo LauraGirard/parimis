@@ -6,6 +6,7 @@
 		<meta name="index" content="Parimis Hôtel de luxe 5 étoiles">
 		<meta name="author" content="Laura Girard">
 		<link rel="stylesheet" type="text/css" href="./styles/styles.css"/>
+		<link rel="stylesheet" type="text/css" href="./fontawesome/all.css">
 
 	</head>
 
@@ -26,7 +27,9 @@
 					<div class="search-bar">
 						<form>
 							<input type="text" name="Votre recherche ici" class="search">
-							<input  class="search" type="submit" name="Valider" value="OK">
+							<button type="submit" class="submit-button">
+								<i class="fa fa-search"></i>
+							</button>
 						</form>
 					</div>					
 				</div>
@@ -122,24 +125,57 @@
 				</div>
 			</div>
 
-				<!--///GOOGLE MAP///-->
+			<!--///GOOGLE MAP///-->
 
+			<div>
+				<h2 class="map-intro">Nous retrouver</h2>
+			</div>
+
+			<hr>
+
+			<div id="map"></div>
+
+			<!--///FOOTER///-->
+
+			<footer>
+			<!--///PREMIER SET LIENS FOOTER///-->
 				<div>
-					<h2 class="map">Nous retrouver</h2>
+					<ul>
+						<li><a href="#">Contact</a></li>
+						<span>|</span>
+						<li><a href="#">Nous Rejoindre</a></li>
+						<span>|</span>
+						<li><a href="#">Avis clients</a></li>				
+					</ul>
+					<ul>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+						<li><a href="#"><i class="fab fa-tripadvisor"></i></a></li>
+					</ul>					
 				</div>
 
-				<hr>
+			<!--///DEUXIEME SET LIENS FOOTER///-->
+				
+				<ul>
+					<li><a href="#">Politique de confidentialité</a></li>
+					<span>|</span>
+					<li><a href="#">Mentions légales</a></li>
+					<span>|</span>
+					<li><a href="#">Conditions générales de vente</a></li>
+					<span>|</span>
+					<li><a href="#">Plan du site</a></li>
+					<span>|</span>
+					<li><a href="#">Imprimer la page</a></li>
+				</ul>
 
-				<a href="">Retour haut de page</a>
-
-				<!--///FOOTER///-->
-
-				<div class="footer">
-					
-				</div>
+				<div class="fontawesome"></div>				
+			</footer>
 
 
 
 		</div>
+		<script type="text/javascript" src="./js/map.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCanautZ2s7QoJaszr79jgpvY1bZpqmqFA&callback=initMap" async defer > </script>
 	</body>
 </html>
